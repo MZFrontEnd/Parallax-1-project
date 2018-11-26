@@ -5,10 +5,10 @@ $(window).scroll(function () {
 
     });
     if (wScroll > screen.height * .3) {
-        $('.sectionHeader__btn--offer').css("background-color", "rgb(175, 28, 2)");
+        $('.sectionHeader__offerBtn').addClass(".sectionHeader__offerBtn--solid")
     } else {
-        $('.sectionHeader__btn--offer').css("background-color", "rgba(175, 28, 2, .5)");
-        // $('.sectionHeader__btn--offer').hover(function () {
+        $('.sectionHeader__offerBtn').removeClass(".sectionHeader__offerBtn--solid")
+        // $('.sectionHeader__offerBtn').hover(function () {
         //     $(this).css("background-color", "rgb(175, 28, 2)");
         // });
     };

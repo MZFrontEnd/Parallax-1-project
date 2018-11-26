@@ -67,7 +67,7 @@
 .menuBar:hover {
   border-top: 3px solid #fff; }
 
-.sectionHeader__btn--offer {
+.sectionHeader__offerBtn {
   position: absolute;
   padding: 20px;
   box-shadow: 0 0 0 3px #fff;
@@ -84,8 +84,11 @@
   transition: all .3s ease-in-out;
   cursor: pointer; }
 
-.sectionHeader__btn--offer:hover {
-  background: #af1c02 !important; }
+.sectionHeader__offerBtn:hover {
+  background: #af1c02; }
+
+.sectionHeader__offerBtn.sectionHeader__offerBtn--solid {
+  background: #af1c02; }
 
 .sectionNav {
   height: 10vh; }
@@ -130,7 +133,7 @@
     transition: all .3s ease-in-out; }
   .menuBar:hover {
     border-top: 3px solid #fff; }
-  .sectionHeader__btn--offer {
+  .sectionHeader__offerBtn {
     position: absolute;
     padding: 20px;
     box-shadow: 0 0 0 3px #fff;
@@ -146,7 +149,9 @@
     border: none;
     transition: all .3s ease-in-out;
     cursor: pointer; }
-  .sectionHeader__btn--offer:hover {
+  .sectionHeader__offerBtn:hover {
+    background: #af1c02; }
+  .sectionHeader__offerBtn.sectionHeader__offerBtn--solid {
     background: #af1c02; }
   .sectionNav {
     height: 10vh; }

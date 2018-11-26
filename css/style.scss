@@ -90,7 +90,7 @@ $colLight:rgb(167, 147, 130);
     }
 }
 
-.sectionHeader__btn--offer {
+.sectionHeader__offerBtn {
     position: absolute;
     padding: 20px;
     box-shadow: 0 0 0 3px #fff;
@@ -109,11 +109,13 @@ $colLight:rgb(167, 147, 130);
 
     // border-radius: 50px;
     &:hover {
-        background: $colBrick !important;
+        background: $colBrick;
+    }
+
+    &.sectionHeader__offerBtn--solid {
+        background: $colBrick;
     }
 }
-
-
 
 .sectionNav {
     height: 10vh;
@@ -173,7 +175,7 @@ $colLight:rgb(167, 147, 130);
         }
     }
 
-    .sectionHeader__btn--offer {
+    .sectionHeader__offerBtn {
         position: absolute;
         padding: 20px;
         box-shadow: 0 0 0 3px #fff;
@@ -192,6 +194,10 @@ $colLight:rgb(167, 147, 130);
 
         // border-radius: 50px;
         &:hover {
+            background: $colBrick;
+        }
+
+        &.sectionHeader__offerBtn--solid {
             background: $colBrick;
         }
     }
